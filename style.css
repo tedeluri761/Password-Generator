@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(8, 7, 11, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1.6rem;
+}
+
+.similarParagraphs {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    }
+
+h1 {
+text-align: center;
+color: rgba(129, 125, 146, 1);
+margin-top: 6.4rem;
+}
+
+section {
+    display: flex;
+    background: rgba(36, 35, 44, 1);
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+margin-top: 1.6rem;
+}
+
+
+.generationpassword {
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 3.1rem;
+text-align: left;
+color: rgba(230, 229, 234, 1);
+
+}
+
+main {
+    background: rgba(36, 35, 44, 1);
+display: flex;
+flex-direction: column;
+margin-top: 1.6rem;
+}
+
+
+.Character {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+
+}
+
+.characterlength{
+    text-align: left;
+    color: rgba(230, 229, 234, 1);
+
+}
+
+.number {
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 3.1rem;
+text-align: left;
+color: rgba(164, 255, 175, 1);
+
+}
+.includeletters{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 1rem;
+}
+
+
+.checkinclude{
+    display: flex;
+    gap: 1.7rem;
+}
+
+
+.checkparagraph{
+    color: rgba(230, 229, 234, 1);
+    text-align: left;
+}
+
+.check {
+    padding: 0.8rem;
+    border: 2px solid rgba(230, 229, 234, 1);
+    background-image: url(assets/images/icon-check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: none;
+}
+
+
+
+.strength{
+    display: flex;
+    background: rgba(24, 23, 31, 1);
+margin: 0 1rem;
+padding: 0 1rem;
+align-items: center;
+gap: 5.7rem;
+margin-top: 2.5rem;
+}
+
+.strengthparagraph{
+text-align: center;
+    color: rgba(129, 125, 146, 1);
+}
+
+
+.h2andStrength{
+display: flex;
+gap: 0.6rem;
+align-items: center;
+}
+
+
+h2 {
+    text-wrap: nowrap;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: right;
+    color: rgba(230, 229, 234, 1);
+
+}
+.strengthMain{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.strength1 {
+    margin: 0.6rem 0 ;
+    padding: 1.1rem 0.4rem; 
+    border: 2px solid rgba(230, 229, 234, 1)
+}
+
+
+.footer {
+    margin-top: 1.6rem;
+    padding: 0 1rem 1.6rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 10.6rem;
+    background: rgba(164, 255, 175, 1);
+border: 0;
+}
+
+.generate{
+    text-align: center;
+    color: rgba(36, 35, 44, 1);
+}
+
+
+.centerslider {
+    display: flex;
+    justify-content: center;
+}
+
+
+.slider-input {
+    margin-left: 1rem;
+    width: 32rem;
+    height: 0.5rem;
+	fill: "#0B1EDF";
+	background: rgba(255, 255, 255, 0.214);
+};
+
+

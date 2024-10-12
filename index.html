@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="similarParagraphs">Password Generator</h1>
+    <section>
+      <p class="generationpassword" id="generationpassword">
+        Password TextContenet
+      </p>
+      <img id="CopyButton" src="assets/images/icon-copy.svg" alt="" />
+    </section>
+    <main>
+      <div class="Character">
+        <p class="characterlength similarParagraphs" id="PasswordLength">
+          Character Length
+        </p>
+        <p class="number" id="number">1</p>
+      </div>
+      <div class="range__slider">
+        <input type="range" min="1" max="20" value="1" class="slider-input" />
+      </div>
+      <div class="length__title" data-length="1"></div>
+
+      <div class="includeletters">
+        <div class="checkinclude">
+          <button class="check" id="check"></button>
+          <p class="checkparagraph similarParagraphs">
+            Include Uppercase Letters
+          </p>
+        </div>
+
+        <div class="checkinclude">
+          <button class="check"></button>
+          <p class="checkparagraph similarParagraphs">
+            Include Lowercase Letters
+          </p>
+        </div>
+
+        <div class="checkinclude">
+          <button class="check"></button>
+          <p class="checkparagraph similarParagraphs">Include Numbers</p>
+        </div>
+
+        <div class="checkinclude">
+          <button class="check"></button>
+          <p class="checkparagraph similarParagraphs">Include Symbols</p>
+        </div>
+      </div>
+      <div class="strength">
+        <p class="strengthparagraph similarParagraphs">STRENGTH</p>
+        <div class="h2andStrength">
+          <h2>TOO WEAK!</h2>
+          <div class="strengthMain">
+            <div class="strength1"></div>
+            <div class="strength1"></div>
+            <div class="strength1"></div>
+            <div class="strength1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <button id="generatelastly">
+          <p class="generate similarParagraphs">GENERATE</p>
+          <img src="assets/images/icon-arrow-right.svg" alt="" />
+        </button>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
